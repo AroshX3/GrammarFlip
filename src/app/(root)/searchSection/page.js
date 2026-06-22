@@ -23,13 +23,19 @@ const page = () => {
 
               <h4 className="text-[10px] pt-1 pl-2 sm:text-[20px] sm:pl-4">
                 Go to-{" "}
-                <Link className="underline text-[purple]" href="">
+                <Link
+                  className="underline text-[purple]"
+                  href="/sentence-analyzer"
+                >
                   GrammarFlip/Sentence Analyzer?
                 </Link>
               </h4>
 
               <h4 className="text-[7px] opacity-70 pt-1 pl-2 sm:text-[16px] sm:pl-4">
-                <Link className="underline text-[purple]" href="">
+                <Link
+                  className="underline text-[purple]"
+                  href="/sentence-analyzer"
+                >
                   GrammarFlip/Sentence Analyzer
                 </Link>
                 -এ যাবেন?
@@ -83,6 +89,72 @@ const page = () => {
                   A noun is a word that names...........
                   <br></br>
                   যে শব্দ দ্বারা কোনো ব্যক্তি,...........
+                </p>
+              </div>
+            </Link>
+          </div>
+          <div>
+            <Link href="/what-is-pronoun">
+              <div className="bg-[#272727] text-white font-bold p-5 rounded-md sm:p-10">
+                <div className="text-end">
+                  <p className="font-thin opacity-50">PARTS OF SPEECH</p>
+                </div>
+                <h2 className="text-[20px] flex gap-2 sm:text-[40px]">
+                  Pronoun
+                </h2>
+                <p className="text-[10px] opacity-50 sm:text-[23px]">
+                  A pronoun is a word used instead of...........
+                  <br></br>
+                  নামের (বিশেষ্য পদ) পরিবর্তন বা পুনরাবৃত্তি...........
+                </p>
+              </div>
+            </Link>
+          </div>
+          <div>
+            <Link href="/what-is-adjective">
+              <div className="bg-[#272727] text-white font-bold p-5 rounded-md sm:p-10">
+                <div className="text-end">
+                  <p className="font-thin opacity-50">PARTS OF SPEECH</p>
+                </div>
+                <h2 className="text-[20px] flex gap-2 sm:text-[40px]">
+                  Adjective
+                </h2>
+                <p className="text-[10px] opacity-50 sm:text-[23px]">
+                  An adjective is a word that...........
+                  <br></br>
+                  যে শব্দ কোনো বিশেষ্য (Noun) বা সর্বনাম...........
+                </p>
+              </div>
+            </Link>
+          </div>
+          <div>
+            <Link href="/what-is-verb">
+              <div className="bg-[#272727] text-white font-bold p-5 rounded-md sm:p-10">
+                <div className="text-end">
+                  <p className="font-thin opacity-50">PARTS OF SPEECH</p>
+                </div>
+                <h2 className="text-[20px] flex gap-2 sm:text-[40px]">Verb</h2>
+                <p className="text-[10px] opacity-50 sm:text-[23px]">
+                  A verb is a word that expresses an...........
+                  <br></br>
+                  যে শব্দ কোনো কাজ, অবস্থা...........
+                </p>
+              </div>
+            </Link>
+          </div>
+          <div>
+            <Link href="/what-is-adverb">
+              <div className="bg-[#272727] text-white font-bold p-5 rounded-md sm:p-10">
+                <div className="text-end">
+                  <p className="font-thin opacity-50">PARTS OF SPEECH</p>
+                </div>
+                <h2 className="text-[20px] flex gap-2 sm:text-[40px]">
+                  Adverb
+                </h2>
+                <p className="text-[10px] opacity-50 sm:text-[23px]">
+                  An adverb is a word that modifies...........
+                  <br></br>
+                  যে শব্দ কোনো Verb, Adjective অথবা...........
                 </p>
               </div>
             </Link>

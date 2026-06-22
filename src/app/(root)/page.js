@@ -10,7 +10,7 @@ export default function Home() {
 
     if (!hasSeenAlert) {
       alert(
-        "Hello Visitor, Small announcement the Site is being developed currently, If you find any errors or bugs then its resonable. Please remain patient and Thank you for visiting.. || নমস্কার দর্শক, একটি ছোট ঘোষণা: সাইটটি বর্তমানে নির্মাণাধীন। আপনি যদি কোনো ত্রুটি বা বাগ খুঁজে পান, তবে তা স্বাভাবিক। অনুগ্রহ করে ধৈর্য ধরুন এবং পরিদর্শনের জন্য আপনাকে ধন্যবাদ।",
+        "Hello Visitor, Small announcement the Site is being developed currently, If you find any errors or bugs then its resonable. Please remain patient and Thank you for visiting.. ||  নমস্কার দর্শক, একটি ছোট ঘোষণা: সাইটটি বর্তমানে নির্মাণাধীন। আপনি যদি কোনো ত্রুটি বা বাগ খুঁজে পান, তবে তা স্বাভাবিক। অনুগ্রহ করে ধৈর্য ধরুন এবং পরিদর্শনের জন্য আপনাকে ধন্যবাদ।"
       );
 
       sessionStorage.setItem("seenAnnouncement", "true");
